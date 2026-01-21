@@ -1,0 +1,72 @@
+/* ===== BASE ===== */
+body {
+    font-family: Georgia, "Times New Roman", serif;
+    background: #fdf6ee;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.story-container {
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+    background: #ffffff;
+}
+
+/* ===== TEXT ===== */
+p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 18px;
+}
+
+/* ===== DARK MODE (STRONG OVERRIDE) ===== */
+body.dark {
+    background-color: #121212 !important;
+    color: #e0e0e0 !important;
+}
+
+body.dark .story-container {
+    background-color: #1e1e1e !important;
+}
+
+body.dark p {
+    color: #e0e0e0 !important;
+}
+
+body.dark a {
+    color: #ff9f9f !important;
+}
+
+/* ===== CONTROLS ===== */
+.reader-controls {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 9999;
+}
+
+.reader-controls button {
+    padding: 6px 10px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.site-footer {
+  text-align: center;
+  padding: 15px;
+  background: #222;
+}
+
+.site-footer a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+  pointer-events: auto;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
+}
